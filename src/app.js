@@ -22,7 +22,7 @@ hbs.registerPartials(partialsPath);  // registracija partiala iz templatea, da n
 
 
 
-app.get('', (req, res) =>{
+app.get('/', (req, res) =>{
 	res.render("index",{          //dynamic pages, renderuje index.hbs
 		title:"Weather App",				// podaci koje salje
 		name:"Radoslav Radic"
